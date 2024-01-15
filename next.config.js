@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  publicRuntimeConfig: {
+    domain: 'yshx.me',
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
